@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="data:image/jpeg;base64,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" alt="company logo">
+            </a>
+            <div class="">
+                <ul class="nav-links flex">
+                    <li class="hover-link nav-items" id="technology" onclick="onNavItemClick('technology')">Technology</li>
+                    <li class="hover-link nav-items" id="stocks" onclick="onNavItemClick('stocks')">StockMarket</li>
+                    <li class="hover-link nav-items" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" placeholder="e.g. Science">
+                <button class="search-button" id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+           
+            <!-- <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" id="news-image" alt="news-image">
+                </div>
+                <div class="card-content">
+                    <h3 class="news-title">This is the title</h3>
+                    <h6 class="news-source" id="news-source">End Gadget 26/08/23</h6>
+                    <p class="news-desc" id="news-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, delectus similique architecto quas libero neque veritatis fugiat magni suscipit quae.</p>
+                </div>
+            </div> -->
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" id="news-image" alt="news-image">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/23</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, delectus similique architecto quas libero neque veritatis fugiat magni suscipit quae.</p>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js">
+    </script>
+
+</body>
+</html>
